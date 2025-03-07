@@ -2,6 +2,19 @@
 
 This script creates a Spotify playlist by fetching your favorite tracks and filtering them by specified artists. The playlist is then created and populated with the matching tracks.
 
+
+## New Features Added
+
+### 1. Fetching All Liked Tracks (`!all` Command)
+- Users can now input `!all` to retrieve every liked track in their Spotify library without filtering by artist.
+
+### 2. Integration with Existing Playlists
+- Added the ability to add tracks to an existing playlist, alongside the option to create a new one.
+- Lists all playlists owned by the user for easy selection.
+
+### 3. Track Deduplication
+- Ensures no duplicate tracks are added to an existing playlist by checking track IDs before insertion.
+
 ---
 
 ## 🛠️ Requirements
